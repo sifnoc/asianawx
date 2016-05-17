@@ -4,7 +4,7 @@
  
  **하루에 지진 규모 +5 이상의 지진도 수십개가 발생, 분석과정에서 업무로드의 과부하 및 부담으로 작용하고 있음**
  
- <img width="500" height="300" ![지진정보알리미](/images/KMA_1.jpg)></img>
+ <img width="450" height="300" src="/images/KMA_1.jpg"></img>
  
  수십개의 지진정보 중에서도 중요한 정보만을 받을 수 있는 시스템이 부재.
  
@@ -17,14 +17,15 @@
 
  * USGS
   현재 USGS에서는 5분 간격으로 세계에서 발생하는 지진들의 정보를 웹으로 통해 보여주고 있다.
- [USGS](http://earthquake.usgs.gov/earthquakes/map/(
- ![USGS](/images/usgs_1.jpg)
+ [USGS](http://earthquake.usgs.gov/earthquakes/map/)
+ <img width="500" height="330" src="/images/usgs_1.jpg"></img>
  
  하지만 WEB을 통해서 실시간 감시를 해야하기 때문에 수동적이며 근무 여건에 따라 공항운영에 영향을 줄만한 지진에 대한 정보에 대해 인지가 느려질수 있다.
  
  USGS에서는 WEB 뿐만이 아니라 API를 통해서 외부에 제공되는 채널이 있다. (웹브라우저를 통해 열어보면 아래와 같다.)
 
  [최근 한달간 중요지진 : Significant EarthQauke in one Month](http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.quakeml)
+ 
  ![datafeed](/images/usgs_data_feed.jpg)
  
 
