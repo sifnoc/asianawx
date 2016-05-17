@@ -179,15 +179,17 @@
    
    저렴한 VPC(가상PC)서비스 업체
    
-    해외 [Conoha](https://www.conoha.jp) 업체의 경우 요금 약 9,700원(900 엔) - 설치비 없음
+   해외 
+   [Conoha](https://www.conoha.jp) : 월 약 9,700원(900 엔) - 설치비 없음
    
-    국내 [Cafe24](http://www.cafe24.com/?controller=product_page&type=server&page=virtual_linux) 국내 업체 월 5,500원(설치비 22,000원 별도)
+   국내
+   [Cafe24](http://www.cafe24.com/?controller=product_page&type=server&page=virtual_linux) : 월 5,500원(설치비 22,000원 별도)
    
-    SMS Alert 적용
+   SMS Alert 적용
     
-    한달간 약 110명 유효 정보 제공 5번 SMS 발송시 최대 발생요금 11000원
+   한달간 약 110명 유효 정보 제공 5번 SMS 발송시 최대 발생요금 11000원
   
-    **지진감시 시스템 최소 유지 비용 약 월 20,000~25,000원(+-)**
+   **지진감시 시스템 최소 유지 비용 약 월 20,000~25,000원(+-)**
   
 
 #### 6. 시스템 활성시 기대효과
