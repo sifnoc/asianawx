@@ -9,10 +9,15 @@
 ##### NWP Model Category
 
 **1. UM (Unified Model)**
+
 **2. GFS (Global Forecast System)**
+
 **3. ECMWF (European Centre for Mid-Range Weather Forecasts)**
+
 **4. HRRR (High Resolution Rapid Refresh)**
+
 **5. RAP (RAPid Refresh)**
+
 **6. NAM (North American Mesoscale Model)**
 
 
