@@ -6,19 +6,14 @@
 
 
 
-##### NWP Model Category
+##### NWP Models
 
-**1. UM (Unified Model)**
-
-**2. GFS (Global Forecast System)**
-
-**3. ECMWF (European Centre for Mid-Range Weather Forecasts)**
-
-**4. HRRR (High Resolution Rapid Refresh)**
-
-**5. RAP (RAPid Refresh)**
-
-**6. NAM (North American Mesoscale Model)**
+* **UM (Unified Model)**
+* **GFS (Global Forecast System)**
+* **ECMWF (European Centre for Mid-Range Weather Forecasts)**
+* **HRRR (High Resolution Rapid Refresh)**
+* **RAP (RAPid Refresh)**
+* **NAM (North American Mesoscale Model)**
 
 
 #### 1. UM 모델
@@ -26,7 +21,8 @@
 ![KMA](/images/UM_1.jpg)
 * 활용 가능 지역 - 한국, 중국, 일본
 
- : 예보 모델 결과물은 1일 4회(0000Z, 0600Z, 1200Z, 1800Z)에 발표가 되며, 기준 시간 + 3~4 Hour 이후에 결과물이 해당 페이지에 갱신된다.
+ > 예보 모델 결과물은 1일 4회(0000Z, 0600Z, 1200Z, 1800Z)에 발표가 되며,
+ > 발표 기준 시간 + 3~4 Hour 시점에 결과물이 해당 페이지에 갱신된다.
 
  * UM전구 - 예보 간격 1일 4회
  
