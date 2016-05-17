@@ -4,7 +4,9 @@
  
  Threshold (기준값)이상의 지진이 감지가 될시 SMS으로 Notification이 가능한 감시 시스템 구축
 
+
 ##### 1. DataSource
+
  * USGS
   현재 USGS에서는 5분 간격으로 세계에서 발생하는 지진들의 정보를 웹으로 통해 보여주고 있다.
  [USGS](http://earthquake.usgs.gov/earthquakes/map/(
@@ -17,6 +19,7 @@
  [최근 한달간 중요지진 : Significant EarthQauke in one Month](http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.quakeml)
  ![datafeed](/images/usgs_data_feed.jpg)
  
+
 ##### 2. How to notice Danger or not
 
  여기서 문제점은 하루에도 발생하는 수십개의 지진에 대해서 공항운영에 지장을 줄 지진인지 아닌지에 대한 판단이 필요하다는 점이다.
@@ -29,9 +32,11 @@
  
  공항지진감시 프로그램을 통하여 USGS에서 나오는 Data_Feed에서 나오는 지진정보의 위치와 인근 공항과의 거리를 계산함으로써 인지한다.
  
- **공항들과의 거리거리계산 = 지진정보GPS 좌표 ~ 취항공항 전체의 GPS 좌표**
+ **진원지와 공항과의 거리거리계산 = USGS 지진정보GPS 좌표 ~ 취항공항 전체의 GPS 좌표**
  
+
 ##### 3. Notification
+
   일정 기준(임의로 진도 규모 5.5, 근접 공항과의 거리 100NM)을 만족하는 지진이 감지 되었다고 한다면. 
   
   해당 지진 정보에 대한 RAW_DATA를 사람이 인지 할수 있는 정보로 가공하여 전파해야 한다.
@@ -120,7 +125,9 @@
   
   > 인근 공항 : TPE 동쪽 80NM, OKA 서쪽 90NM
   
+
 ##### 4. Alert
+
   Raw_Data를 통하여 Notification 과정을 매 5분마다 반복한다. USGS에서도 실제 데이터가 5분 간격으로 UPDATE된다.
   
   해당 데이터를 가공하고 전파해야 하나, 이메일과 같은 방식의 전파로는 한계가 있으므로 **SMS를 통한 전파**가 가장 효율적이라고 생각한다.
@@ -143,6 +150,7 @@
    [TwillIO](http://https://www.twilio.com/sms)
    ![TwillIO](/images/sms_2.jpg)
   
+
 ##### 5. 해당 서비스 개발 및 시스템 운영 비용
   
   항공정보파트내의일반 PC에서도 프로그램 작동 가능하나, 정전 및 운영체제(윈도우즈)특성에 따라 불안정한 요인이 내제.
@@ -161,6 +169,7 @@
   
   ** 지진감시 시스템 유지 비용 약 월 20,000원(+-) **
   
+
 ##### 6. 시스템 활성시 기대효과
  
  1. **빠른 인지가 가능(USGS 업데이트 5분 + SMS 전파 5분 이내 = 총 10분 이내)**
