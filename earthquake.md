@@ -141,7 +141,7 @@
   가격은 문자 한건당 20원
   
    [청기와랩](http://www.bluehouselab.com/sms/)
-   ![bluehouselab](/images/sms_1.jpg)
+   ![bluehouselab](/images/sms_3.jpg)
    
   * 국외
   해외 휴대전화번호로는 Twillio 업체를 통한 SMS 전파가 가능하다.
@@ -152,6 +152,9 @@
   
 
 ##### 5. 해당 서비스 개발 및 시스템 운영 비용
+  
+  **시스템 작동 개요도**
+  ![OVERVIEW](/images/system-overview.png)
   
   항공정보파트내의일반 PC에서도 프로그램 작동 가능하나, 정전 및 운영체제(윈도우즈)특성에 따라 불안정한 요인이 내제.
   
