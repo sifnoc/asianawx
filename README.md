@@ -17,12 +17,16 @@
 
 
 #### 1. UM 모델
-+ 접속 주소
-+ [방재기상정보시스템](http://afso.kma.go.kr/)
+* [방재기상정보시스템](http://afso.kma.go.kr/)
 ![KMA](/images/UM_1.jpg)
-
+* 활용 가능 지역
+ * 한국, 중국, 일본
+  * 한국
+   *
 
 #### 2. GFS 모델
-+ 접속 주소
-+ [Model Analyses And Guidance - NCEP Central Operatios](http://mag.ncep.noaa.gov/)
+* [Model Analyses And Guidance - NCEP Central Operatios](http://mag.ncep.noaa.gov/)
 ![GFS](/images/NCEP_1.jpg)
+* 활용 가능 지역
+ * 전지구
+
