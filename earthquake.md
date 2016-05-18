@@ -157,7 +157,7 @@
    가격은 문자 한건당 20원
    
     [청기와랩](http://www.bluehouselab.com/sms/)
-    ![bluehouselab](/images/sms_3.jpg)
+    <img width="450" height="300" src="/images/sms_3.jpg"></img>
    
    * 국외
    해외 휴대전화번호로는 Twillio 업체를 통한 SMS 전파가 가능하다.
@@ -165,7 +165,7 @@
    가격은 문자 한건당 0.0075~0.02$(한화 9원~24원))
    
     [TwillIO](http://https://www.twilio.com/sms)
-    ![TwillIO](/images/sms_2.jpg)
+    <img width="450" height="300" src="/images/sms_2.jpg"></img>
   
 
 #### 5. 해당 서비스 개발 및 시스템 운영 비용
