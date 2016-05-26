@@ -1,12 +1,5 @@
 ## CTS(RJCC) 치토세 공항 METAR(지상관측) 분석
 
-RJCC_summer_cig.png	RJCC plot images update	2 minutes ago
-RJCC_summer_vis.png	RJCC plot images update	2 minutes ago
-RJCC_summer_wind.png	RJCC plot images update	2 minutes ago
-RJCC_winter_cig.png	RJCC plot images update	2 minutes ago
-RJCC_winter_vis.png	RJCC plot images update	2 minutes ago
-RJCC_winter_wind.png
-
 * 바람
 
   **동계** 겨울철 바람의 주풍향은 북풍으로 RWY01이 주로 사용하게 될 이착륙 활주로에 해당.
