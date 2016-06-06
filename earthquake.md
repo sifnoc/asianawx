@@ -15,6 +15,10 @@
 
 
 #### 1. DataSource
+: 지진에 관련된 데이터는 전세계적으로 공유가 잘되고 있는 편이다. GSN(Global Seismographic Network) 가 오래된 공유 채널인것으로 보이며,
+요즘은 FDSN(Federation of Digital Broad-Band Seismograph Networks)를 통해 Quakeml 데이터 포멧으로 공유되고 있는것 같다.
+그중에서 하루에도 Event(지진파를 분석하여 사람이 읽을 수 있을 정도로 가공된 지진정보) 수십건이 올라오는 두 곳
+USGS와 EMSC에 대해서 간략한 정보를 소개한다.
 
  * USGS (미 지질조사국)
  
@@ -32,6 +36,21 @@
  
  ![datafeed](/images/usgs_data_feed.jpg)
  
+ * EMSC (유럽지중해지진센터)
+  EMSC 에서도 세계에서 발생하는 거의 모든 지진들의 정보를 웹을 통해 보여주고 있다.
+
+ [EMSC](http://www.emsc-csem.org/#2w)
+
+ USGS와 마찬가지로 수동적인 통신채널이나, TW 네트워크(Taiwan 지진 네트워크)와 연동되어 있어 대만 지진의 경우도 잘 입수된다.
+ 
+ queary url에 대한 설명은 [EMSC_quary](http://www.seismicportal.eu/fdsn-wsevent.html)
+ 
+ 해당 조합의 예시는 아래와 같다.
+  http://www.seismicportal.eu/fdsnws/event/1/query?limit=10
+ 
+ ![webdata](images/EMSC_.web.jpg)
+
+
 
 #### 2. How to Recongnize danger or not
 
